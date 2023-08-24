@@ -1,0 +1,77 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+.main{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(206, 92%, 94%);
+}
+.qwerty{
+    font-size: 3rem;
+    text-align: center;
+}
+.innerdiv{
+    width: 70vw;
+    background-color: #fff;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+.innerdiv h2{
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin: 1rem  4rem 0;
+}
+
+.innerdiv li{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+input,label{
+    cursor: pointer;
+}
+#submit,.btn{
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #74b9ff;
+    margin-top: 5rem;
+    cursor: pointer;
+}
+.btn{
+    background-color: green;
+}
+#submit:hover{
+    background-color: #0984e3;
+}
+.btn:hover{
+    background-color: #23ab0b;
+}
+
+#score{
+    background-color: #dfe6e9;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+.scorearea{
+    display: none;
+}
